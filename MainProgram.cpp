@@ -90,7 +90,12 @@ public:
     // TODO
     // Create a constructor that receives
     // name and grade
-    Student(string n, int g) : name(n), grade(g) {}
+
+    Student(string n, int g)
+    {
+        name = n;
+        grade = g;
+    }
 
     // TODO
     // Create a function printInfo()
@@ -101,7 +106,7 @@ public:
     {
         cout << "Name: " << name << endl;
         cout << "Grade:" << grade << endl;
-        }
+    }
 };
 
 /*
